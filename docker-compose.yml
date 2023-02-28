@@ -60,6 +60,7 @@ x-icinga2-environment:
   &icinga2-environment
   ICINGA_CN: icinga2
   ICINGA_MASTER: 1
+  ICINGAWEB_ICINGA2_API_USER_PASSWORD: ${ICINGAWEB_ICINGA2_API_USER_PASSWORD}
 
 x-logging:
   &default-logging
